@@ -1,0 +1,30 @@
+# IDE
+.idea/
+
+# Vendor
+.vendor/
+vendor/
+
+# Go build artifacts
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage
+coverage.out
